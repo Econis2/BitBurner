@@ -1,5 +1,10 @@
 {
-  "data": [
-    "test1"
-  ]
+	securityMultiplyer: 0.75,
+	moneyAddifyer: 5,
+	files: [
+		"config.txt",
+		"deploy.js",
+		"spread.js",
+		"controller.js"
+	]
 }
