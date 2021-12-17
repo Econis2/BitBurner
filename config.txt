@@ -1,7 +1,7 @@
 {
-	securityMultiplyer: 0.75,
-	moneyAddifyer: 5,
-	files: [
+	"securityMultiplyer": 0.75,
+	"moneyAddifyer": 5,
+	"files": [
 		"config.txt",
 		"deploy.js",
 		"spread.js",
