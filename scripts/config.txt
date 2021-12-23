@@ -1,0 +1,56 @@
+{
+  "version": "fb38c5b4-7f89-4032-8ec9-be25b69625a8",
+  "files": {
+    "base": [
+      "clusterConfig.txt",
+      "command.js",
+      "controller.js",
+      "kill.js",
+      "pod.js",
+      "reset.js",
+      "update.js",
+      "utils.js"
+    ],
+    "virus": [
+      "controller.js",
+      "details.js",
+      "init.js",
+      "root.js",
+      "spread.js"
+    ]
+  },
+  "clusters: [
+      {
+          "name": "controller",
+          "pods": [
+              {
+                  "target": "foodnstuff",
+                  "instances": "100%",
+                  "securityMultiplyer": "0.75",
+                  "moneyAddifyer": 5
+              }
+          ]
+      },
+      {
+          "name": "n00dles",
+          "pods": [
+              {
+                  "target": "n00dles",
+                  "instances": "100%",
+                  "securityMultiplyer": "0.75",
+                  "moneyAddifyer": 5
+              }
+          ]
+      }
+  ],
+  "logs": {
+    "base": {
+      "command.js": "DEBUG",
+      "update.js": "INFO",
+      "controller.js": "DEBUG",
+      "reset.js": "INFO",
+      "pod": "INFO",
+      "kill": "DEBUG"
+    }
+  }
+}
