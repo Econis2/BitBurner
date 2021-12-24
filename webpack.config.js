@@ -7,8 +7,8 @@ module.exports = {
         nodeExternals()
     ],
     entry: {
-        controller: "./build/controller.js",
-        pod: "./build/pod.js"
+        controller: path.join(__dirname, `game`, `controller.js`),
+        pod: path.join(__dirname, `game`, `pod.js`)
     },
     output: {
         path: path.join(__dirname, `dist`),
