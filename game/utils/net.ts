@@ -1,4 +1,4 @@
-import { NS } from ".";
+import { NS } from "./NetScriptDefinitions";
 
 export interface Timeout<T> {
     isRunning: boolean

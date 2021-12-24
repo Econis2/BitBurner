@@ -1,4 +1,4 @@
-import { NS } from "./utils";
+import { NS } from "./utils/NetScriptDefinitions";
 import * as Net from "./utils/net"
 
 
