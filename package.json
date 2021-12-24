@@ -2,10 +2,10 @@
   "name": "bitburner-scripts-cicd",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "server": "node server.js",
-    "build": "node index.js",
+    "build": "tsc && webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Derek Spiner",
@@ -13,6 +13,12 @@
   "dependencies": {
     "express": "^4.17.2",
     "fs": "^0.0.1-security",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.4",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
   }
 }
