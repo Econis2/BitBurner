@@ -1,8 +1,11 @@
 const express = require('express')
+const path = require('path')
 const app = express()
 const port = 9000
 
-app.use(express.static("scripts"))
+let distDir = path.dirname(__dirname)
+
+app.use(express.static(path.join(distDir, "dist")))
 
 // app.get("/hosts", (req, res) => {
 //     // req.query

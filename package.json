@@ -4,8 +4,9 @@
   "description": "",
   "private": true,
   "scripts": {
-    "server": "node server.js",
+    "server": "node server/index.js",
     "build": "tsc && webpack",
+    "start": "tsc && webpack && node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Derek Spiner",
