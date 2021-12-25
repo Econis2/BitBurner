@@ -1,5 +1,4 @@
 
-# **CODE & DOCs NOT COMPLETED**
 # **BitBurner**
 
 This repo contains several pieces to making development easier inside the BitBurner game.
